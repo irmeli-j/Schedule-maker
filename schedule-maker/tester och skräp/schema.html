@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Schemaläggare</title>
+</head>
+<body>
+    <h1>Schemaläggare</h1>
+    <form>
+        <label for="name">Namn:</label><br>
+        <input type="text" id="name" name="name" required><br>
+
+        <label for="lesson_lenght">Välj lektionslängden:</label>
+        <select id="lesson_lenght" name="lesson_lenght">
+            <option value="2">30 minuter</option>
+            <option value="3">45 minuter</option>
+            <option value="4">60 minuter</option>
+        </select><br>
+
+        <label for="appt_start">Kan tidigast kl:</label>
+        <input type="time" id="appt_start" name="appt_start" required><br>
+        <label for="appt_end">Kan senast kl:</label>
+        <input type="time" id="appt_end" name="appt_end" required><br>
+
+        <input type="submit" value="Submit">
+        <input type="reset">
+      </form>
+</body>
+</html>
